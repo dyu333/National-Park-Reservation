@@ -1,0 +1,187 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	margin: 25px;
+}
+
+header h1 {
+	font-size: 21pt;
+	color: #FFFFFF;
+}
+
+header p {
+	color: #FFFFFF;
+	/*font-size: 12pt;*/
+}
+
+header img {
+	height: 110px;
+}
+
+nav {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-style:double;
+	height:50px;
+}
+
+nav h2 {
+	color: #FFFFFF;
+	padding-left: 60px;
+}
+
+nav p {
+	color: #FFFFFF;
+	/*font-size: 12pt;*/
+	font-style: italic;
+	padding-left: 60px;
+}
+
+ul {
+	padding-left:20px;
+}
+
+li {
+	padding-bottom: 4px;
+}
+
+li a {
+	color: #0D118B;
+	text-decoration: none;
+	/*font-size: 20pt;*/
+	list-style: none;
+}
+
+nav ul {
+	width: 100%;
+}
+
+nav ul li {
+	float: left;
+	margin-right: 20px;
+	background-color: white;
+	border-radius: 8px;
+	list-style: none;
+}
+
+nav:after {
+	clear: both;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+section h1 {
+	color: darkgreen;
+	font-size: 21pt;
+	margin: 25px;
+	/* padding-left: 120px; */
+}
+
+section h2 {
+	color: #FFFFFF;
+	font-size: 18pt;
+}
+
+section p {
+	/*font-size: 14pt;*/
+	width: 80%;
+	margin: 25px;
+	text-align: left;
+}
+
+section img {
+	border-color: #FFFFFF;
+	border-width: 20px;
+	border-style: solid;
+}
+
+section form {
+	margin: 25px;
+}
+
+.parkdetailsinfo {
+	margin: 25px;
+}
+
+.today {
+	width: 250px;
+	text-align:-webkit-center
+}
+
+.forecast {
+	width: 150px;
+	text-align:-webkit-center
+}
+
+.container {
+	position:relative;
+	bottom: 250px;
+	left: 250px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#surveyimage {
+	width: 230px;
+}
+
+.surveyimages {
+	width: 150px;
+}
+
+#surveyparkname {
+	width: 250px;
+}
+
+.error {
+	color:red;
+}
+
+.home-parks {
+	margin-top: -10%;
+}
+
+.submit {
+	margin-left: 50%;
+
+}
+
+#parkCode {
+	margin-left: 100px;
+}
+
+#email {
+	margin-left: 182px;
+}
+
+#state {
+	margin-left: 127px;
+}
+
+#inactive {
+	margin-left: 162px;
+}
+
+#forecastheader {
+	position:relative;
+	bottom: 230px;
+	left: 500px;
+	font-size:medium
+}
+
+#weathertoday {
+	border: 0px;
+}
+
+#todayheader {
+	margin-bottom: 0px;
+}
+
+.parkdetailsimages {
+	border: 0px;
+}
